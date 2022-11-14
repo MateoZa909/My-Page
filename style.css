@@ -25,6 +25,11 @@
         display: flex;
         justify-content: center;
     }
+
+    .one .cube {
+        width: 53px;
+        height: 25px;
+    }
     
     .nav .two {
         grid-column: span 1;
@@ -35,6 +40,12 @@
         display: flex;
         justify-content: center;
     }
+
+    .two img {
+        width: 70px;
+        height: 25px;
+        object-fit: contain;
+    }
     
     .nav .three {
         grid-column: span 1;
@@ -44,6 +55,12 @@
         margin: 8px 8px;
         display: flex;
         justify-content: center;
+    }
+
+    .three img {
+        width: 60px;
+        height: 25px;
+        object-fit: contain;
     }
 
     .boxLine {
@@ -95,13 +112,12 @@
 
     .card::after {
         content: '';
-        margin-top: 4px;
         width: 70%;
         height: 1px;
         background-color: black;
         position: absolute;
         filter: blur(3px);
-        bottom: 53.8%;
+        bottom: 50.8%;
     }
 
     .some {
@@ -119,6 +135,27 @@
         z-index: 1;
     }
 
+    .some a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .some h1 {
+        font-size: 1.60em;
+    }
+
+    .some ul {
+        margin-top: 10px;
+    }
+
+    .some ul li {
+        list-style: none;
+    }
+
+    .some ul {
+        font-size: 14.90px;
+    }
+
     .triangle {
         width: 130px;
         height: 150px;
@@ -134,6 +171,27 @@
         z-index: 1;
     }
 
+    .triangle a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .triangle h1 {
+        font-size: 1.60em;
+    }
+
+    .triangle ul {
+        margin-top: 10px;
+    }
+
+    .triangle ul li {
+        list-style: none;
+    }
+
+    .triangle ul {
+        font-size: 17.90px;
+    }
+
     .aste {
         width: 130px;
         height: 150px;
@@ -145,13 +203,34 @@
         border-radius: 20px;
         position: absolute;
         top: 40px;
-        right: 4%;
+        right: 2.80%;
         z-index: 1;
+    }
+
+    .aste a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    .aste h1 {
+        font-size: 1.60em;
+    }
+
+    .aste ul {
+        margin-top: 10px;
+    }
+
+    .aste ul li {
+        list-style: none;
+    }
+
+    .aste ul {
+        font-size: 13.90px;
     }
 
     .main-two {
         width: 100%;
-        height: 540px;
+        height: 800px;
         background-color: beige;
         display: flex;
         flex-direction: column;
@@ -167,8 +246,22 @@
         box-shadow: 5px 1px 10px -3px rgba(0, 0, 9, 0.5);
     }
 
+    .main-two img:active {
+        transform: scale(1.10);
+    }
+
     .main-two .foto {
         margin-top: 9px;
+    }
+
+    .main-two .foto1 {
+        object-fit: cover;
+    }
+
+    .lv video {
+        width: 310px;
+        height: 250px;
+        box-shadow: 5px 1px 10px -3px rgba(0, 0, 9, 0.5);
     }
 }
 
