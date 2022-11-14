@@ -115,7 +115,7 @@
         border-radius: 20px;
         position: absolute;
         top: 40px;
-        left: 8px;
+        left: 9px;
     }
 
     .triangle {
@@ -129,7 +129,7 @@
         border-radius: 20px;
         position: absolute;
         top: 40px;
-        left: 35.90%;
+        left: 34%;
     }
 
     .aste {
@@ -143,7 +143,7 @@
         border-radius: 20px;
         position: absolute;
         top: 40px;
-        right: 2%;
+        right: 4%;
     }
 }
 
