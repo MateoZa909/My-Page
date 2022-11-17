@@ -1,3 +1,5 @@
+@import url('./app.js');
+
 * {
     margin: 0;
     padding: 0;
@@ -22,9 +24,92 @@
         margin-right: 20px;
     }
 
-    .principal img {
+    .show-lupa {
         width: 25px;
         height: 25px;
+    }
+
+    .show-menu {
+        width: 25px;
+        height: 25px;
+        transition-delay: 3s;
+    }
+
+    .show-menu:active {
+        transform: rotate(90deg);
+        transition: 0.2s;
+    }
+
+    .show-men {
+        position: absolute;
+        top: 40px;
+        width: 290px;
+        height: 500px;
+        background-color: rgb(245, 245, 235);
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        z-index: 1;
+    }
+
+    .things {
+        background-color: rgb(236, 232, 232);
+        width: 100%;
+        border-bottom: 1px solid rgb(205, 205, 205);
+    }
+
+    .show-men .things h1 {
+        margin-left: 15px;
+        font-size: 2.30em;
+    }
+
+    .show-men ul {
+        font-size: 30px;
+        background-color: rgb(236, 232, 232);
+        width: 100%;
+    }
+
+    .show-men li {
+        list-style: none;
+        font-weight: 500;
+    }
+
+    .show-men li:nth-child(1) {
+        color: red;
+    }
+    .show-men li:nth-child(2) {
+        color: green;
+    }
+    .show-men li:nth-child(3) {
+        color: blue;
+    }
+    .show-men li:nth-child(4) {
+        color: violet;
+    }
+    .show-men li:nth-child(5) {
+        color: rgb(183, 192, 53);
+    }
+    .show-men li:nth-child(6) {
+        color: rgb(0, 255, 200);
+    }
+    .show-men li:nth-child(7) {
+        color: rgb(255, 115, 0);
+    }
+    .show-men li:nth-child(8) {
+        color: rgb(33, 190, 96);
+    }
+    .show-men li:nth-child(9) {
+        color: rgb(178, 30, 227);
+    }
+    .show-men li:nth-child(10) {
+        color: rgb(63, 148, 188);
+    }
+    .show-men li:nth-child(11) {
+        color: rgb(203, 46, 38);
+    }
+    .show-men li:nth-child(12) {
+        color: rgb(0, 0, 172);
     }
 
     .nav {
@@ -131,6 +216,7 @@
     .card img {
         width: 100%;
         height: 103px;
+        object-fit: cover;
         margin-top: -18px;
         border-bottom-right-radius: 11px;
         border-bottom-right-radius: 11px;
@@ -156,13 +242,14 @@
         bottom: 42.8%;
     }
 
-    .some {
-        width: 130px;
-        height: 150px;
-        background-color: aquamarine;
+    #some {
+        margin-top: 5px;
+        width: 290px;
+        height: 500px;
+        background-color: rgb(244, 244, 229);
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         border-radius: 20px;
         position: absolute;
@@ -171,24 +258,32 @@
         z-index: 1;
     }
 
-    .some a {
+    .arrow {
+        width: 18px;
+        height: 18px;
+        position: absolute;
+        left: 14%;
+        top: 75%;
+    }
+
+    #some a {
         text-decoration: none;
         color: #000;
     }
 
-    .some h1 {
-        font-size: 1.60em;
+    #some h1 {
+        font-size: 3.40em;
     }
 
-    .some ul {
+    #some ul {
         margin-top: 10px;
     }
 
-    .some ul li {
+    #some ul li {
         list-style: none;
     }
 
-    .some ul {
+    #some ul {
         font-size: 14.90px;
     }
 
