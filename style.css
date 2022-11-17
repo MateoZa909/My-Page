@@ -29,10 +29,93 @@
         height: 25px;
     }
 
+    /* LUPA */
+    .showSearch {
+        width: 280px;
+        height: 500px;
+        background-color: beige;
+        border-radius: 20px;
+        border: 2px solid #ccc;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        position: absolute;
+        top: 1%;
+        right: -2%;
+        z-index: 1;
+    }
+    
+    .showSearch input {
+        margin: 10px 10px;
+        height: 25px;
+        width: 240px;
+        border: none;
+    }
+    
+    .showSearch h1 {
+        font-size: 1.50em;
+        margin: 10px 20px;
+        text-align: center;
+    }
+    
+    .container {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 70%;
+        grid-template-columns: repeat(3, 1fr);
+        background: rgb(9,3,106);
+        background: linear-gradient(63deg, rgba(9,3,106,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+        border-radius: 10px;
+    }
+    
+    .container .one {
+        margin-top: -15px;
+        justify-self: center;
+    }
+    
+    .container .two {
+        margin-left: 1.20px;
+        justify-self: center;
+    }
+
+    .container .two img {
+        width: 82px;
+        height: 82px;
+    }
+    
+    .container .three {
+        margin-right: 1px;
+        justify-self: center;
+    }
+
+    .container .three img {
+        width: 82px;
+        height: 82px;
+    }
+    
+    .container img {
+        width: 82px;
+        height: 82px;
+        /* object-fit: cover; */
+    }
+    
+    .container p {
+        font-size: 14px;
+        text-align: center;
+        color: #fff;
+    }
+    /* LUPA */
+
+    .principal .dig {
+        text-shadow: 1px 5px 10px rgb(212, 212, 212);
+    }
+
     .show-menu {
         width: 25px;
         height: 25px;
-        transition-delay: 3s;
+        transition-delay: 5s;
     }
 
     .show-menu:active {
@@ -51,6 +134,7 @@
         justify-content: start;
         align-items: flex-start;
         z-index: 1;
+        border-radius: 20px;
     }
 
     .things {
@@ -256,6 +340,7 @@
         top: 40px;
         left: 9px;
         z-index: 1;
+        border: 2px solid #ccc;
     }
 
     .arrow {
@@ -288,27 +373,28 @@
     }
 
     .triangle {
-        width: 130px;
-        height: 150px;
-        background-color: rgb(255, 0, 140);
+        width: 290px;
+        height: 500px;
+        background-color: rgb(244, 244, 229);
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         border-radius: 20px;
         position: absolute;
         top: 40px;
-        left: 34%;
+        left: 5%;
         z-index: 1;
+        border: 2px solid #ccc;
     }
 
     .triangle a {
         text-decoration: none;
-        color: #fff;
+        color: #000;
     }
 
     .triangle h1 {
-        font-size: 1.60em;
+        font-size: 3.40em;
     }
 
     .triangle ul {
@@ -324,18 +410,19 @@
     }
 
     .aste {
-        width: 130px;
-        height: 150px;
-        background-color: rgb(221, 255, 0);
+        width: 290px;
+        height: 500px;
+        background-color: rgb(244, 244, 229);
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: start;
         align-items: center;
         border-radius: 20px;
         position: absolute;
         top: 40px;
         right: 2.80%;
         z-index: 1;
+        border: 2px solid #ccc;
     }
 
     .aste a {
@@ -344,7 +431,7 @@
     }
 
     .aste h1 {
-        font-size: 1.60em;
+        font-size: 3.40em;
     }
 
     .aste ul {
