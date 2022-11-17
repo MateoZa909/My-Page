@@ -66,5 +66,5 @@ function showMenu() {
 function hiddenMenu() {
     setTimeout(() => {
         menuList.style.display = 'none';
-    }, 300000)
+    }, 5000)
 }
