@@ -71,11 +71,12 @@
     }
     
     .container .one {
-        margin-top: -15px;
+        margin-top: 0px;
         justify-self: center;
     }
     
     .container .two {
+        margin-top: 7px;
         margin-left: 1.20px;
         justify-self: center;
     }
@@ -86,6 +87,7 @@
     }
     
     .container .three {
+        margin-top: 7px;
         margin-right: 1px;
         justify-self: center;
     }
@@ -102,9 +104,10 @@
     }
     
     .container p {
-        font-size: 14px;
+        font-size: 12px;
         text-align: center;
         color: #fff;
+        padding: 1px 5px;
     }
     /* LUPA */
 
@@ -481,6 +484,47 @@
         height: 250px;
         box-shadow: 5px 1px 10px -3px rgba(0, 0, 9, 0.5);
         object-fit: cover;
+    }
+
+    footer {
+        width: 100%;
+        background-color: #000;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    footer h1 {
+        margin: 5px 5px;
+        font-size: 1.80em;
+        color: #fff;
+    }
+    
+    footer input {
+        margin: 5px 5px;
+        width: 280px;
+        height: 20px;
+    }
+
+    footer button {
+        margin: 10px 5px;
+        width: 300px;
+        height: 30px;
+        background-color: gold;
+    }
+
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        margin: 5px 5px;
+        gap: 10px;
+    }
+
+    footer li {
+        text-decoration: none;
+        color: #fff;
     }
 }
 
