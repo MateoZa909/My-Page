@@ -19,11 +19,18 @@ const menuList = document.querySelector('.show-men')
 menu.addEventListener('click', showMenu);
 menu.addEventListener('click', hiddenMenu);
 
+// LUPA
+const lupa = document.querySelector('.show-lupa');
+lupa.addEventListener('click', showSearch);
+lupa.addEventListener('click', hidden);
+
 const all = document.querySelector('.all');
 const arrow = document.querySelector('.arrow');
 const some = document.querySelector('#some');
 const triangle = document.querySelector('.triangle');
 const asterisco = document.querySelector('.aste');
+const showMenuSearch = document.querySelector('.showSearch');
+
 
 function showSome() {
     some.style.display = 'flex';
@@ -67,4 +74,15 @@ function hiddenMenu() {
     setTimeout(() => {
         menuList.style.display = 'none';
     }, 5000)
+}
+
+// Show Lupa
+function showSearch() {
+    showMenuSearch.style.display = 'flex';
+}
+
+function hidden() {
+    setTimeout(() => {
+        showMenuSearch.style.display = 'none';
+    }, 8000)
 }
