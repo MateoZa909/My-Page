@@ -29,6 +29,10 @@
         height: 25px;
     }
 
+    .show-lupa:active {
+        transform: scale(0.90);
+    }
+
     /* LUPA */
     .showSearch {
         width: 280px;

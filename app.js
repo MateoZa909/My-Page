@@ -31,7 +31,6 @@ const triangle = document.querySelector('.triangle');
 const asterisco = document.querySelector('.aste');
 const showMenuSearch = document.querySelector('.showSearch');
 
-
 function showSome() {
     some.style.display = 'flex';
     arrow.style.display = 'flex';
